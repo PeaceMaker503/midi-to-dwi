@@ -1,0 +1,16 @@
+import java.util.* ;
+
+public class TrackMIDI {
+
+	ArrayList<Note> track;
+	
+	public Track()
+	{
+		track = new ArrayList<Note>();
+	}
+	
+	public void addNote(Note n)
+	{
+		track.add(n);
+	}
+}
